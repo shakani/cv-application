@@ -1,4 +1,4 @@
-import './components/biodata.css'
+import './styles/biodata.css'
 
 function Biodata() {
     return (
