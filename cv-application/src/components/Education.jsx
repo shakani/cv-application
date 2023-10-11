@@ -11,15 +11,20 @@ function Education() {
                     </li>
                     <li>
                         <label htmlFor='degree'>Degree</label>
-                        <input type='text' name='degree'></input>
+                        {/* <input type='text' name='degree'></input> */}
+                        <select name='degree'>
+                            <option value='bachelors'>Bachelors</option>
+                            <option value='masters'>Masters</option>
+                            <option value='phd'>PhD</option>
+                        </select>
                     </li>
                     <li>
                         <label htmlFor='start'>Start Date</label>
-                        <input type='text' name='start'></input>
+                        <input type='date' name='start'></input>
                     </li>
                     <li>
                         <label htmlFor='end'>End Date</label>
-                        <input type='text' name='end'></input>
+                        <input type='date' name='end'></input>
                     </li>
                     <li>
                         <label htmlFor='location'>Location</label>
