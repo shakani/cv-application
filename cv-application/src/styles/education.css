@@ -1,11 +1,11 @@
-.education > form > ul {
+.biodata > form > ul {
     list-style: none;
     display: flex;
     flex-direction: column;
     gap: 5px;
 }
 
-.education > form > ul > li {
+.biodata > form > ul > li {
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
