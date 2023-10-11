@@ -2,9 +2,9 @@ import '../styles/biodata.css'
 
 function Biodata() {
     return (
-        <div>
+        <div className="biodata">
             <form>
-                <ul>
+                <ul> Personal Details 
                     <li>
                         <label htmlFor='name'>Full Name</label>
                         <input type='text' name='name'></input>
@@ -14,7 +14,7 @@ function Biodata() {
                         <input type='email' name='email'></input>
                     </li>
                     <li>
-                        <label htmlFor='number'>Phone Number ()</label>
+                        <label htmlFor='number'>Phone Number</label>
                         <input type='tel' name='number'></input>
                     </li>
                     <li>
